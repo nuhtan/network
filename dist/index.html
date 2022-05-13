@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Network Graph</title>
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+    <style>
+        body {
+            font-family: helvetica;
+            font-size: 14px;
+            overflow: hidden;
+        }
+
+        #cy {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 999;
+        }
+
+        h1 {
+            opacity: 0.5;
+            font-size: 1em;
+        }
+
+        /* you can set the disabled style how you like on the text/icon */
+        .cxtmenu-disabled {
+            opacity: 0.333;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="cy"></div>
+</body>
+
+</html>
